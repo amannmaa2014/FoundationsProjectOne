@@ -12,7 +12,7 @@ signature_price = 2.750
 
 ############################# Start Here! ##############################
 cupcake_shop_name = "Fancy Cakes"
-signature_flavors = "cinnamen , rose hip , orange"
+signature_flavors = ["cinnamen" , "rose"  , "orange"]
 order_list = []
 
 
@@ -21,8 +21,8 @@ def print_menu():
     Print the items in the menu dictionary.
     """
     # your code goes here!
-    for listing_menue in menu:
-        print (listing_menue , menu[listing_menue])
+    for listing_menu in menu:
+        print (listing_menu , menu[listing_menu])
 
 
 def print_originals():
